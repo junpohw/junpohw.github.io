@@ -3,6 +3,9 @@
 This portfolio showcase a diverse collection of projects that I am passionate about, as an aspiring AI product manager I am all about turning data into actionable insights and creating meaningful digital experience. From building visualisation to creating statistical model. Each project employs a variety of programming languages and mathematical concepts to solve for commercial outcomes. Morevoer, each project highlights the importance of sotry telling and engaging to a non-technical audience using clear and concise visualizations. 
 
 - [Project](#Project)
+- [Project2](#Project2)
+- [Project3](#Project3)
+
 
 
 <a id="Project"></a>
