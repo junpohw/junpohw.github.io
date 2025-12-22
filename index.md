@@ -1,16 +1,19 @@
 ## Welcome 👋 Data Science & Analytics Portfolio
 
-This portfolio showcase a diverse collection of projects that I am passionate about, as an aspiring AI product manager I am all about turning data into actionable insights and creating meaningful digital experience. From building visualisation to creating statistical model. Each project employs a variety of programming languages and mathematical concepts to solve for commercial outcomes. Morevoer, each project highlights the importance of sotry telling and engaging to a non-technical audience using clear and concise visualizations. 
+This portfolio is a curated collection of projects I genuinely enjoy building and exploring. As an aspiring AI product manager, I’m driven by turning raw data into actionable insights and creating digital experiences that improve how people interact with products and information.
+
+From interactive visualisations to statistical modelling, each project blends programming, mathematics, and creative problem-solving to deliver real commercial outcomes. Just as importantly, these projects emphasise the art of storytelling — translating complex, technical ideas into clear, engaging visuals that resonate with non-technical audiences.
 
 - [Project](#Project)
 - [Project2](#Project2)
 - [Project3](#Project3)
+- [Project4](#Project4)
 
 
 
 <a id="Project"></a>
 
-### Deep NLP for hate speech detection
+### Project 1 (Deploy AI Agent Project)
 
 Hate speech detection is the automated task of determining whether a piece of text contains hateful content. In this project, I built a classifier using PyTorch to fine-tune a BERT model.
 
@@ -22,7 +25,7 @@ Hate speech detection is the automated task of determining whether a piece of te
 
 <a id="Project2"></a>
 
-### Examining panic-buying during the first wave of Covid-19, using mobility data
+### Project 2 (Visualisation with Story telling)
 The first wave of COVID-19 infections led to widespread stories of shortages in grocery stores as consumers stocked up in anticipation of lockdowns, a behaviour colloquially known as ‘panic buying’. In this project, I used mobility data from Google and Apple to empirically investigate the extent of panic buying in different countries.
 
 <img src="images/mobility.png?raw=true" />
@@ -35,7 +38,7 @@ View code on Colab
 
 <a id="Projec3"></a>
 
-### The Fragile Families Challenge: ML with Bayesian hyperparameter tuning, KNN missing values imputation, and data preprocessing Pipelines
+### Project 3 Forecasting techniques
 The Fragile Families Challenge was a predictive modelling challenge commissioned by researchers at Princeton University in 2017. In the challenge, participants were tasked with predicting six life outcomes (GPA, material hardship, grit, eviction, layoff, and job training) for 4,242 children based on their cirumstances between birth and age 9. 
 
 I took part in this challenge, using various ML and NLP techniques including: (i) imputing missing values using word embeddings and KNN, (ii) modelling with LASSO, Random Forests and XGBoost models, (iii) Bayesian hyperparameter optimisation, and (iv) using feature importance scores to interpret the models' predictions. 
@@ -46,7 +49,7 @@ I took part in this challenge, using various ML and NLP techniques including: (i
 
 ---
 
-### Implementing a custom data collection pipeline using Scrapy and MongoDB
+### Project 4 present some vibe coding projects 
 The web hosts vast quantities of data useful for research. In this project, I built a custom data collection pipeline using the Python library `scrapy` and a MongoDB cluster.
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/MongoDB-white?logo=mongodb)](#) [![](https://img.shields.io/badge/Scrapy-white?logo=scrapy)](#) [![](https://img.shields.io/badge/Bash-white?logo=GNUbash)](#)
@@ -55,46 +58,6 @@ The web hosts vast quantities of data useful for research. In this project, I bu
 
 ---
 
-### Geospatial analysis of deprivation in London
-In this project, I use Geopandas to visualise data on deprivation levels in London and analyse changes over time.
-
-<img src="images/london2.png?raw=true"/>
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Anaconda-white?logo=anaconda)](#) [![](https://img.shields.io/badge/Geopandas-white?logo=Geopandas)](#) [![](https://img.shields.io/badge/Bash-white?logo=GNUbash)](#)
-
-View code on Colab
-
----
-
-### Interpretable machine learning: Parital Dependence Plots, LIME and Shapley values
-A significant barrier to ML's adoption in many fields is the lack of interpretability of black box models. In this project, I use several techniques to gain insights into various models. 
-
-<img src="images/interpretable.png?raw=true"/>
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/sklearn-white?logo=scikit-learn)](#) [![](https://img.shields.io/badge/LIME-white?logo=LIME)](#) [![](https://img.shields.io/badge/SHAP-white?logo=SHAP)](#)
-
-[View code on Colab](https://colab.research.google.com/drive/1Msk1tmph1IQYom596vy3MmMwESID0KaW?usp=sharing)
-
----
-
-### Using multi-level modelling in R to investigate the drivers of Covid-19 vaccine hesitancy
-In many tasks, failing to account for the hierarchical relations and autocorrelations between data can create "ecological fallacies" which misguide our interpretation of the data. In this project, I use mutli-level regression modelling to account for spatial autocorrelation and study reasons for Covid-19 vaccine hesitancy. 
-
-<!-- <img src="images/random_intercept.png?raw=true"/> -->
-
-[![](https://img.shields.io/badge/R-white?logo=R)](#) [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) 
-
-View code on Github
-
----
-
-## Skills-based projects
-A selection of smaller projects demonstrating specific data science and ML skills.
-
-- [Working in the cloud: Using data stored in AWS S3 buckets](#)
-- [Optimising code with multiprocessing](#)
-
-
 
 
 
@@ -102,7 +65,7 @@ A selection of smaller projects demonstrating specific data science and ML skill
 https://mattschapman.github.io
 
 />
-
+s
 
 
 
