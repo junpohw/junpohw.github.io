@@ -10,6 +10,7 @@ From interactive visualisations to statistical modelling, each project blends pr
 - [Project4](#Project4)-->
 
 
+
 <!--
  <a id="Project"></a>
 
@@ -27,7 +28,9 @@ Hate speech detection is the automated task of determining whether a piece of te
 <a id="POS"></a>
 
 ### Point of Sales (POS) System Outage - PowerBI
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Google-white?logo=Google)](#) [![](https://img.shields.io/badge/Apple-white?logo=Apple)](#)
+<!--[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Google-white?logo=Google)](#) [![](https://img.shields.io/badge/Apple-white?logo=Apple)](#)-->
+[![](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](#)
+
 
 A QSR restaurant has experienced a nationwide disruption, where the POS terminal service provider suffered a network outage, during 15th of April between 9.15pm to 4am, between this period payment processing for certain transaction types may have been affected, data are broken down by sales channel, and at 15 minutes interval with total net amount for each transaction type, and we would like to understand the impact it has from the network outage. 
 
