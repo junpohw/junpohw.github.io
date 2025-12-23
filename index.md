@@ -4,14 +4,14 @@ This portfolio is a curated collection of projects I genuinely enjoy building an
 
 From interactive visualisations to statistical modelling, each project blends programming, mathematics, and creative problem-solving to deliver real commercial outcomes. Just as importantly, these projects emphasise the art of storytelling — translating complex, technical ideas into clear, engaging visuals that resonate with non-technical audiences.
 
-- [Project](#Project)
+<!--- [Project](#Project) -->
 - [POS System Outage](#POS)
-- [Project3](#Project3)
-- [Project4](#Project4)
+<!--- [Project3](#Project3)
+- [Project4](#Project4)-->
 
 
-
-<a id="Project"></a>
+<!--
+ <a id="Project"></a>
 
 ### Project 1 (Deploy AI Agent Project)
 
@@ -21,7 +21,8 @@ Hate speech detection is the automated task of determining whether a piece of te
 
 [View code on Colab](https://colab.research.google.com/drive/1d_q0vUpgwmbN7imUcdsbuDwJ61OuBjvO?usp=sharing)
 
----
+-->
+
 
 <a id="POS"></a>
 
@@ -32,19 +33,21 @@ A QSR restaurant has experienced a nationwide disruption, where the POS terminal
 
 During the analysis each sales channel are broken to represent each Friday when the outage happened to compare a non impact vs impact day. We have observed a significant decline in POS system sales during the outage, and a 50% increase in cash sales. Overall, this has impacted 5.5% of total sales for the system. 
 
-<img src = 'images/POS_1.png?raw=true'>*
+<img src = 'images/POS_1.png?raw=true'>
 
 From the 5.5% decline in sales we can further confirm using customer average spend per transactions, it was evident that Cash sales spend was up but POS system spend has dropped significantly. resulting in overall losing $ 0.39 per guest count. 
 
 <img src = 'images/POS_2.1.png?raw=true'>
 
-<img src = 'images/POS_2.2.png?raw=true'>*
+<img src = 'images/POS_2.2.png?raw=true'>
 
 Overall the recommendation here is that although there's a 5.5% impact on total sales, there are other avenues the business can consider such as in-app purchase or delivery to reduce the impact. 
 
-<img src = 'images/POS_2.3.png?raw=true'>*
+<img src = 'images/POS_3.png?raw=true'>
 
 ---
+
+<!--
 
 <a id="Projec3"></a>
 
@@ -68,8 +71,7 @@ The web hosts vast quantities of data useful for research. In this project, I bu
 
 ---
 
-
-
+-->
 
 <!--https://jakehanson.github.io/#GPT
 https://mattschapman.github.io
