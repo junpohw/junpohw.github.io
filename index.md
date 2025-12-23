@@ -5,7 +5,7 @@ This portfolio is a curated collection of projects I genuinely enjoy building an
 From interactive visualisations to statistical modelling, each project blends programming, mathematics, and creative problem-solving to deliver real commercial outcomes. Just as importantly, these projects emphasise the art of storytelling — translating complex, technical ideas into clear, engaging visuals that resonate with non-technical audiences.
 
 - [Project](#Project)
-- [Project2](#Project2)
+- [POS System Outage](#POS)
 - [Project3](#Project3)
 - [Project4](#Project4)
 
@@ -23,14 +23,26 @@ Hate speech detection is the automated task of determining whether a piece of te
 
 ---
 
-<a id="Project2"></a>
+<a id="POS"></a>
 
-### Project 2 (Visualisation with Story telling)
-The first wave of COVID-19 infections led to widespread stories of shortages in grocery stores as consumers stocked up in anticipation of lockdowns, a behaviour colloquially known as ‘panic buying’. In this project, I used mobility data from Google and Apple to empirically investigate the extent of panic buying in different countries.
-
+### Point of Sales (POS) System Outage - PowerBI
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Google-white?logo=Google)](#) [![](https://img.shields.io/badge/Apple-white?logo=Apple)](#)
 
-View code on Colab
+A QSR restaurant has experienced a nationwide disruption, where the POS terminal service provider suffered a network outage, during 15th of April between 9.15pm to 4am, between this period payment processing for certain transaction types may have been affected, data are broken down by sales channel, and at 15 minutes interval with total net amount for each transaction type, and we would like to understand the impact it has from the network outage. 
+
+During the analysis each sales channel are broken to represent each Friday when the outage happened to compare a non impact vs impact day. We have observed a significant decline in POS system sales during the outage, and a 50% increase in cash sales. Overall, this has impacted 5.5% of total sales for the system. 
+
+<img src = 'images/POS_1.png?raw=true'>*
+
+From the 5.5% decline in sales we can further confirm using customer average spend per transactions, it was evident that Cash sales spend was up but POS system spend has dropped significantly. resulting in overall losing $ 0.39 per guest count. 
+
+<img src = 'images/POS_2.1.png?raw=true'>
+
+<img src = 'images/POS_2.2.png?raw=true'>*
+
+Overall the recommendation here is that although there's a 5.5% impact on total sales, there are other avenues the business can consider such as in-app purchase or delivery to reduce the impact. 
+
+<img src = 'images/POS_2.3.png?raw=true'>*
 
 ---
 
