@@ -29,7 +29,7 @@ Hate speech detection is the automated task of determining whether a piece of te
 
 ### Point of Sales (POS) System Outage - PowerBI
 <!--[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Google-white?logo=Google)](#) [![](https://img.shields.io/badge/Apple-white?logo=Apple)](#)-->
-[![](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](#) [![](https://img.shields.io/badge/Microsoft%20Excel-%23217246?style=flat-square&logo=microsoftexcel&logoColor=white)]
+[![](https://img.shields.io/badge/Power%20BI-%23F2C811?style=flat-square&logo=powerbi&logoColor=black)](#) [![](https://img.shields.io/badge/Microsoft%20Excel-%23217246?style=flat-square&logo=microsoftexcel&logoColor=white)](#)
 
 
 
