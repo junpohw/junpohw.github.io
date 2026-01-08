@@ -6,7 +6,7 @@ From interactive visualisations to statistical modelling, each project blends pr
 
 - [Deployed AI Chatbot (Rapid Prototyping Approach)](#chatbot) 
 - [POS System Outage](#POS)
-- []
+- [Forecast Parking Availability](#parking)
 
 
 
@@ -68,9 +68,9 @@ Overall the recommendation here is that although there's a 5.5% impact on total 
 
 ---
 
-<!--
 
-<a id="Projec3"></a>
+
+<a id="parking"></a>
 
 ### Project 3 Forecasting techniques
 The Fragile Families Challenge was a predictive modelling challenge commissioned by researchers at Princeton University in 2017. In the challenge, participants were tasked with predicting six life outcomes (GPA, material hardship, grit, eviction, layoff, and job training) for 4,242 children based on their cirumstances between birth and age 9. 
@@ -92,7 +92,7 @@ The web hosts vast quantities of data useful for research. In this project, I bu
 
 ---
 
--->
+
 
 <!--https://jakehanson.github.io/#GPT
 https://mattschapman.github.io
