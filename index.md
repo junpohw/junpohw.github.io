@@ -6,8 +6,6 @@ From interactive visualisations to statistical modelling, each project blends pr
 
 <!--- [Project](#Project) -->
 - [POS System Outage](#POS)
-<!--- [Project3](#Project3)
-- [Project4](#Project4)-->
 
 
 
