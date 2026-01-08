@@ -63,7 +63,7 @@ Overall the recommendation here is that although there's a 5.5% impact on total 
 
 <img src = 'images/POS_3.png?raw=true'>
 
-[View PBI on Github]()
+[View PBI on Github](https://github.com/junpohw/junpohw.github.io/blob/main/projects/Analytics.pbix)
 
 ---
 
