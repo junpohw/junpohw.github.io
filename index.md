@@ -11,6 +11,7 @@ This portfolio is curated design to showcase a diverse collections of projects t
  <a id="chatbot"></a>
 
 ### Deployed AI Chatbot (Rapid Prototyping Approach)
+![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Relevance%20AI-white?style=flat&logo=relevanceai&logoColor=black)](#)
 
 A clinical practice wanted an AI chatbot to streamline customer service experience, and refocus operating expenses to other parts of the business. 
 
@@ -33,7 +34,7 @@ Finally for quality assurance, the bot should always double checked appointment 
 
 <img src = 'images/PM.png?raw=true'>
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Relevance%20AI-white?style=flat&logo=relevanceai&logoColor=black)](#)
+[
 
 
 
@@ -41,7 +42,7 @@ Finally for quality assurance, the bot should always double checked appointment 
 
 ### Point of Sales (POS) System Outage - PowerBI
 <!--[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Google-white?logo=Google)](#) [![](https://img.shields.io/badge/Apple-white?logo=Apple)](#)-->
-
+[![](https://img.shields.io/badge/Power%20BI-%23F2C811?style=flat-square&logo=powerbi&logoColor=black)](#) [![](https://img.shields.io/badge/Microsoft%20Excel-%23217246?style=flat-square&logo=microsoftexcel&logoColor=white)](#)
 
 A QSR restaurant has experienced a nationwide disruption, where the POS terminal service provider suffered a network outage, during 15th of April between 9.15pm to 4am, between this period payment processing for certain transaction types may have been affected, data are broken down by sales channel, and at 15 minutes interval with total net amount for each transaction type, and we would like to understand the impact it has from the network outage. 
 
@@ -51,9 +52,10 @@ During the analysis each sales channel are broken to represent each Friday when 
 
 From the 5.5% decline in sales we can further confirm using customer average spend per transactions, it was evident that Cash sales spend was up but POS system spend has dropped significantly. resulting in overall losing $ 0.39 per guest count. 
 
-<img src = 'images/POS_2.png?raw=true'>
+<img src = 'images/POS_2.1.png?raw=true'>
+<img src = 'images/POS_2.2.png?raw=true'>
 
-[![](https://img.shields.io/badge/Power%20BI-%23F2C811?style=flat-square&logo=powerbi&logoColor=black)](#) [![](https://img.shields.io/badge/Microsoft%20Excel-%23217246?style=flat-square&logo=microsoftexcel&logoColor=white)](#)
+
 [View PBI on Github](https://github.com/junpohw/junpohw.github.io/blob/main/projects/Analytics.pbix)
 
 ---
@@ -63,11 +65,13 @@ From the 5.5% decline in sales we can further confirm using customer average spe
 <a id="parking"></a>
 
 ### Project 3 Forecasting techniques
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/sklearn-white?logo=scikit-learn)](#)
+
 The project revolves around smart parking availability system based on the data collected from sensors placed in the parking bays around Melbourne, Australia. It delves into building an end to end model that predicts parking availability with a high confidence. This is for 15 minutes interval timesteps based on the location of road segment, user destination, date and time. The project aims to ameliorate traffic congestion issues and provide efficiency, by giving users prefictable insights into future parking conditions through seasonality.
 
 The prediction model is based on the long short-term memory (LSTM) neural networks and has been implemented on Melbourne CBD on-street parking dataset that has been preprocessed and aggregated on Google's Big Query. We achieved a test Mean Absolute Error (MAE) of 0.1634 for the year of 2019, with a two-layer stacked LSTM on a 24 hour multi step output. The prediction results are filtered to display the user preferences captured via a user interface (UI) that was built on Flask and Mapbox. We present an end to end model built on cloud tools as the building blocks for future work in a wide array of applications. This includes creating insights and patterns based on the occupancy and restriction violation data of the parking lots, helping the city council in making data driven decisions and better planning for the future.
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/sklearn-white?logo=scikit-learn)](#)
+
 
 [View code on Colab](https://colab.research.google.com/drive/1eMRq-WAtegW5_J5OhTPWoeB3QNf64D-A?usp=sharing)
 
