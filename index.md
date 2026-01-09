@@ -13,29 +13,20 @@ This portfolio is curated design to showcase a diverse collections of projects t
 ### Deployed AI Chatbot (Rapid Prototyping Approach)
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Relevance%20AI-white?style=flat&logo=relevanceai&logoColor=black)](#)
 
-A clinical practice wanted an AI chatbot to streamline customer service experience, and refocus operating expenses to other parts of the business. 
+**Objective** Clinical practice wanted to streamline customer service experience from a manual, high cost operation into an automated 24/7 digital assitant capable of managing the full patient lifecycle. 
 
-The key requirements as per below: 
-- Chatbot needs to be able to communicate on the web, and Whatsapp Messages, and respond quickly
-- Requires to schedule appointments and check for schedule conflicts and proposed alternative
-- Able to answer general enquiries about the clinic and the nature of the treatment offerings
+**Approach**
+- **Rapid Prototyping** Utilized prompt engineering and Relevance AI to build a cross platform (Web/WhatsApp) MVP integrated with the clinic's calendar.
+- **Knowledge Retrival (RAG)** Configured the bot to scrape company articles or website, allowing it to answer service-specific inquiries accurately without manual data entry.
+- **Logic & Safety** Built custom guardrails to ensure the bot provided general info only, automatically escalate medical advice request to human representatives.
+- **Automated Logistics** Designed an end-to-end flow: Check Schedule Conflicts -> Propose alternative -> Confirmed Details -> Generate booking confirmation through Email and WhatsApp -> Appointment Reminder send prior 24 hours
 
-Solution Summary: 
-<br>
-To address the situation quickly, we first understand the tech stack the clinic is currently using and the requirements to integrate the chatbot create a quick MVP with prompt engineering on relevance AI. 
-
-Prompt Engineering Structure: 
-<br>
-Provide the role & identity of the AI chatbot stating that they are a customer representative and their primary goal was to assist new or existing patients with inquiries, appointment scheduling, and general information about the clinic services. The bot needs to always start with a self introduction format and respond in a warm and approachable style and be able to proactively offer relevant information and next steps. 
-
-It should also have the ability to scrape information from the company websites, as they have articles and information of the service provided so they are able to answer general enquiries, the bot should not provide specific medical diagnose or give medical advice beyond general information or make any other assumptions about a patient conditions, if that happens it will prompt for an appointment or a human for interactions. 
-
-The bot should be able to book appointments and integrate into current calendar system and check for schedule conflicts and proposed alternative time slot based on the patient response, once the appointment is confirmed an automated email will be generated and an automated text message will be send 24 hours prior to the appointment. 
-
-Finally for quality assurance, the bot should always double checked appointment details before confirming and verify contact information is accurate, ensure all medical questions are handled appropriately and maintain confidentiality, if unsure about anything else it should always defer to a human. The success metrics is measured when appointments are handled without any conflics, patient satisfaction with communication, reduced no shows through clear confirmation and, efficiently handle common enquiries and escalate complex request. 
-
+**Success Metrics**
+- Zero scheduling conflicts during the pilot phase. 
+- Reduce "no-show" rates via automated 24 hours reminders. 
+- Successful escalation of complex medical inquiries to staff.
+ 
 <img src = 'images/PM.png?raw=true'>
-
 
 
 <a id="POS"></a>
