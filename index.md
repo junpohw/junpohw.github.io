@@ -51,13 +51,7 @@ During the analysis each sales channel are broken to represent each Friday when 
 
 From the 5.5% decline in sales we can further confirm using customer average spend per transactions, it was evident that Cash sales spend was up but POS system spend has dropped significantly. resulting in overall losing $ 0.39 per guest count. 
 
-<img src = 'images/POS_2.1.png?raw=true'>
-
-<img src = 'images/POS_2.2.png?raw=true'>
-
-Overall the recommendation here is that although there's a 5.5% impact on total sales, there are other avenues the business can consider such as in-app purchase or delivery to reduce the impact. 
-
-<img src = 'images/POS_3.png?raw=true'>
+<img src = 'images/POS_2.png?raw=true'>
 
 [![](https://img.shields.io/badge/Power%20BI-%23F2C811?style=flat-square&logo=powerbi&logoColor=black)](#) [![](https://img.shields.io/badge/Microsoft%20Excel-%23217246?style=flat-square&logo=microsoftexcel&logoColor=white)](#)
 [View PBI on Github](https://github.com/junpohw/junpohw.github.io/blob/main/projects/Analytics.pbix)
@@ -69,9 +63,9 @@ Overall the recommendation here is that although there's a 5.5% impact on total 
 <a id="parking"></a>
 
 ### Project 3 Forecasting techniques
-The Fragile Families Challenge was a predictive modelling challenge commissioned by researchers at Princeton University in 2017. In the challenge, participants were tasked with predicting six life outcomes (GPA, material hardship, grit, eviction, layoff, and job training) for 4,242 children based on their cirumstances between birth and age 9. 
+The project revolves around smart parking availability system based on the data collected from sensors placed in the parking bays around Melbourne, Australia. It delves into building an end to end model that predicts parking availability with a high confidence. This is for 15 minutes interval timesteps based on the location of road segment, user destination, date and time. The project aims to ameliorate traffic congestion issues and provide efficiency, by giving users prefictable insights into future parking conditions through seasonality.
 
-I took part in this challenge, using various ML and NLP techniques including: (i) imputing missing values using word embeddings and KNN, (ii) modelling with LASSO, Random Forests and XGBoost models, (iii) Bayesian hyperparameter optimisation, and (iv) using feature importance scores to interpret the models' predictions. 
+The prediction model is based on the long short-term memory (LSTM) neural networks and has been implemented on Melbourne CBD on-street parking dataset that has been preprocessed and aggregated on Google's Big Query. We achieved a test Mean Absolute Error (MAE) of 0.1634 for the year of 2019, with a two-layer stacked LSTM on a 24 hour multi step output. The prediction results are filtered to display the user preferences captured via a user interface (UI) that was built on Flask and Mapbox. We present an end to end model built on cloud tools as the building blocks for future work in a wide array of applications. This includes creating insights and patterns based on the occupancy and restriction violation data of the parking lots, helping the city council in making data driven decisions and better planning for the future.
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/sklearn-white?logo=scikit-learn)](#)
 
