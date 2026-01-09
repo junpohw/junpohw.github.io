@@ -11,7 +11,7 @@ This portfolio is curated design to showcase a diverse collections of projects t
  <a id="chatbot"></a>
 
 ### Deployed AI Chatbot (Rapid Prototyping Approach)
-![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Relevance%20AI-white?style=flat&logo=relevanceai&logoColor=black)](#)
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Relevance%20AI-white?style=flat&logo=relevanceai&logoColor=black)](#)
 
 A clinical practice wanted an AI chatbot to streamline customer service experience, and refocus operating expenses to other parts of the business. 
 
@@ -21,20 +21,20 @@ The key requirements as per below:
 - Able to answer general enquiries about the clinic and the nature of the treatment offerings
 
 Solution Summary: 
+<br>
 To address the situation quickly, we first understand the tech stack the clinic is currently using and the requirements to integrate the chatbot create a quick MVP with prompt engineering on relevance AI. 
 
 Prompt Engineering Structure: 
-Provide the role & identity of the AI chatbot stating the that their primary goal was to assist patients and potential patients with inquiries, appointment scheduling, and general information about the clinic services. The bot needs to always start with a self introduction format and respond in a warm and approachable style and be able to be proactive to offer reaaurance and offer relevant information and next steps. 
+<br>
+Provide the role & identity of the AI chatbot stating that they are a customer representative and their primary goal was to assist new or existing patients with inquiries, appointment scheduling, and general information about the clinic services. The bot needs to always start with a self introduction format and respond in a warm and approachable style and be able to proactively offer relevant information and next steps. 
 
-It should also have the ability to scrape information from the company websites, as they have articles and information of the service provided so it is able to answer general enquiries, the bot should not provide specific medical diagnose or give medical advice beyond general information or make any other assumptions about a patient conditions, if that happens it will prompt for an appointment or a human for interactions. 
+It should also have the ability to scrape information from the company websites, as they have articles and information of the service provided so they are able to answer general enquiries, the bot should not provide specific medical diagnose or give medical advice beyond general information or make any other assumptions about a patient conditions, if that happens it will prompt for an appointment or a human for interactions. 
 
-The bot should also be able to check for schedule conflicts and proposed alternative time based on the client response, and able to send an automated email and message reminder for any upcoming bookings or cancellation. 
+The bot should be able to book appointments and integrate into current calendar system and check for schedule conflicts and proposed alternative time slot based on the patient response, once the appointment is confirmed an automated email will be generated and an automated text message will be send 24 hours prior to the appointment. 
 
 Finally for quality assurance, the bot should always double checked appointment details before confirming and verify contact information is accurate, ensure all medical questions are handled appropriately and maintain confidentiality, if unsure about anything else it should always defer to a human. The success metrics is measured when appointments are handled without any conflics, patient satisfaction with communication, reduced no shows through clear confirmation and, efficiently handle common enquiries and escalate complex request. 
 
 <img src = 'images/PM.png?raw=true'>
-
-[
 
 
 
