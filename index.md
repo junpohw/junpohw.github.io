@@ -54,7 +54,7 @@ This portfolio is curated design to showcase a diverse collections of projects t
 - **$0.39 Loss per transactions:** Provided a concrete metric for the "cost of inconvenience" per transactions.  
 
 [View PBI on Github](https://github.com/junpohw/junpohw.github.io/blob/main/projects/Analytics.pbix)
-[View Presentation Slide on Github]
+[View Presentation Slide on Github](https://github.com/junpohw/junpohw.github.io/blob/main/projects/Business%20Insights%20Analyst%20Task%5B76%5D.pptx)
 ---
 
 
