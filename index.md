@@ -65,15 +65,15 @@ From the 5.5% decline in sales we can further confirm using customer average spe
 <a id="parking"></a>
 
 ### Project 3 Forecasting techniques
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/sklearn-white?logo=scikit-learn)](#)
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)](#)
 
 The project revolves around smart parking availability system based on the data collected from sensors placed in the parking bays around Melbourne, Australia. It delves into building an end to end model that predicts parking availability with a high confidence. This is for 15 minutes interval timesteps based on the location of road segment, user destination, date and time. The project aims to ameliorate traffic congestion issues and provide efficiency, by giving users prefictable insights into future parking conditions through seasonality.
 
 The prediction model is based on the long short-term memory (LSTM) neural networks and has been implemented on Melbourne CBD on-street parking dataset that has been preprocessed and aggregated on Google's Big Query. We achieved a test Mean Absolute Error (MAE) of 0.1634 for the year of 2019, with a two-layer stacked LSTM on a 24 hour multi step output. The prediction results are filtered to display the user preferences captured via a user interface (UI) that was built on Flask and Mapbox. We present an end to end model built on cloud tools as the building blocks for future work in a wide array of applications. This includes creating insights and patterns based on the occupancy and restriction violation data of the parking lots, helping the city council in making data driven decisions and better planning for the future.
 
+<img src = 'images/model_architecture.png?raw=true'>
 
-
-[View code on Colab](https://colab.research.google.com/drive/1eMRq-WAtegW5_J5OhTPWoeB3QNf64D-A?usp=sharing)
+[View code on Github](https://github.com/junpohw/Forecasting-Parking-Availability/blob/main/model.ipynb)
 
 ---
 
