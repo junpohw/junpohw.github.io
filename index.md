@@ -35,20 +35,26 @@ This portfolio is curated design to showcase a diverse collections of projects t
 <!--[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Google-white?logo=Google)](#) [![](https://img.shields.io/badge/Apple-white?logo=Apple)](#)-->
 [![](https://img.shields.io/badge/Power%20BI-%23F2C811?style=flat-square&logo=powerbi&logoColor=black)](#) [![](https://img.shields.io/badge/Microsoft%20Excel-%23217246?style=flat-square&logo=microsoftexcel&logoColor=white)](#)
 
-A QSR restaurant has experienced a nationwide disruption, where the POS terminal service provider suffered a network outage, during 15th of April between 9.15pm to 4am, between this period payment processing for certain transaction types may have been affected, data are broken down by sales channel, and at 15 minutes interval with total net amount for each transaction type, and we would like to understand the impact it has from the network outage. 
+**Situation** Measure the financial impact of a 7-hour long network outage to assist leadership in understanding recovery requirements and service provider accountability. 
 
-During the analysis each sales channel are broken to represent each Friday when the outage happened to compare a non impact vs impact day. We have observed a significant decline in POS system sales during the outage, and a 50% increase in cash sales. Overall, this has impacted 5.5% of total sales for the system. 
+**Analysis Process**
+- **Time-Series Comparison** Isolated the impact window and compared it against historical Friday performance to account for seasonal and day of week trends. 
+- **Granular Mapping** Analyzed data at 15-minute intervals to pinpoint the exact moment of service degradation across different sales channels. 
 
 <img src = 'images/POS_1.png?raw=true'>
 
-From the 5.5% decline in sales we can further confirm using customer average spend per transactions, it was evident that Cash sales spend was up but POS system spend has dropped significantly. resulting in overall losing $ 0.39 per guest count. 
+- **Behavioral Modeling** Evaluate average guest spend to prove that while customers switched to cash, their total basket size decreased significantly compared to digital/card transactions. 
 
 <img src = 'images/POS_2.1.png?raw=true'>
 <img src = 'images/POS_2.2.png?raw=true'>
 
+**Key Results**
+- **5.5% total sales erosion:** Quantified the exact system-wide impact. 
+- **Channel Shift:** Identified a 50% increase in cash sales, highlighting the limits of manual workarounds during digital outages.
+- **$0.39 Loss per transactions:** Provided a concrete metric for the "cost of inconvenience" per transactions.  
 
 [View PBI on Github](https://github.com/junpohw/junpohw.github.io/blob/main/projects/Analytics.pbix)
-
+[View Presentation Slide on Github]
 ---
 
 
