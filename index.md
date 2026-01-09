@@ -28,6 +28,7 @@ This portfolio is curated design to showcase a diverse collections of projects t
  
 <img src = 'images/PM.png?raw=true'>
 
+---
 
 <a id="POS"></a>
 
@@ -56,6 +57,7 @@ This portfolio is curated design to showcase a diverse collections of projects t
 [View PBI on Github](https://github.com/junpohw/junpohw.github.io/blob/main/projects/Analytics.pbix)
 <br>
 [View Presentation Slide on Github](https://github.com/junpohw/junpohw.github.io/blob/main/projects/Business%20Insights%20Analyst%20Task%5B76%5D.pptx)
+
 ---
 
 
