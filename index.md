@@ -1,8 +1,6 @@
-## Welcome 👋 Data Science & Analytics Portfolio
+## Data Science & Analytics Portfolio
 
-This portfolio is a curated collection of projects I genuinely enjoy building and exploring. As an aspiring AI product manager, I’m driven by turning raw data into actionable insights and creating digital experiences that improve how people interact with products and information.
-
-From interactive visualisations to statistical modelling, each project blends programming, mathematics, and creative problem-solving to deliver real commercial outcomes. Just as importantly, these projects emphasise the art of storytelling — translating complex, technical ideas into clear, engaging visuals that resonate with non-technical audiences.
+This portfolio is curated design to showcase a diverse collections of projects that demonstrate advanced proficiency in analytics and product demonstrateion. Each project employs a variety of mathematical concepts and analytics to solve real-world challenges and demonstrating my problem solving skills from product MVP to building dashboard. Moreover, each projects highlights the importance of making insights accessible and engaging non-technical audience using clear and concise visualizations. 
 
 - [Deployed AI Chatbot (Rapid Prototyping Approach)](#chatbot) 
 - [POS System Outage](#POS)
@@ -13,9 +11,6 @@ From interactive visualisations to statistical modelling, each project blends pr
  <a id="chatbot"></a>
 
 ### Deployed AI Chatbot (Rapid Prototyping Approach)
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Relevance%20AI-white?style=flat&logo=relevanceai&logoColor=black)](#)
-
 
 A clinical practice wanted an AI chatbot to streamline customer service experience, and refocus operating expenses to other parts of the business. 
 
@@ -38,7 +33,7 @@ Finally for quality assurance, the bot should always double checked appointment 
 
 <img src = 'images/PM.png?raw=true'>
 
-
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Relevance%20AI-white?style=flat&logo=relevanceai&logoColor=black)](#)
 
 
 
@@ -46,7 +41,7 @@ Finally for quality assurance, the bot should always double checked appointment 
 
 ### Point of Sales (POS) System Outage - PowerBI
 <!--[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Google-white?logo=Google)](#) [![](https://img.shields.io/badge/Apple-white?logo=Apple)](#)-->
-[![](https://img.shields.io/badge/Power%20BI-%23F2C811?style=flat-square&logo=powerbi&logoColor=black)](#) [![](https://img.shields.io/badge/Microsoft%20Excel-%23217246?style=flat-square&logo=microsoftexcel&logoColor=white)](#)
+
 
 A QSR restaurant has experienced a nationwide disruption, where the POS terminal service provider suffered a network outage, during 15th of April between 9.15pm to 4am, between this period payment processing for certain transaction types may have been affected, data are broken down by sales channel, and at 15 minutes interval with total net amount for each transaction type, and we would like to understand the impact it has from the network outage. 
 
@@ -64,6 +59,7 @@ Overall the recommendation here is that although there's a 5.5% impact on total 
 
 <img src = 'images/POS_3.png?raw=true'>
 
+[![](https://img.shields.io/badge/Power%20BI-%23F2C811?style=flat-square&logo=powerbi&logoColor=black)](#) [![](https://img.shields.io/badge/Microsoft%20Excel-%23217246?style=flat-square&logo=microsoftexcel&logoColor=white)](#)
 [View PBI on Github](https://github.com/junpohw/junpohw.github.io/blob/main/projects/Analytics.pbix)
 
 ---
@@ -80,15 +76,6 @@ I took part in this challenge, using various ML and NLP techniques including: (i
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/sklearn-white?logo=scikit-learn)](#)
 
 [View code on Colab](https://colab.research.google.com/drive/1eMRq-WAtegW5_J5OhTPWoeB3QNf64D-A?usp=sharing)
-
----
-
-### Project 4 present some vibe coding projects 
-The web hosts vast quantities of data useful for research. In this project, I built a custom data collection pipeline using the Python library `scrapy` and a MongoDB cluster.
-
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/MongoDB-white?logo=mongodb)](#) [![](https://img.shields.io/badge/Scrapy-white?logo=scrapy)](#) [![](https://img.shields.io/badge/Bash-white?logo=GNUbash)](#)
-
-[View code on Github](https://github.com/mattschapman/mattschapman.github.io/tree/master/projects/mongodb_crawler/spiders)
 
 ---
 
